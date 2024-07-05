@@ -1,4 +1,4 @@
-<div align="center"><img src="assets/preview.png" width="600"/></div>
+<div align="center"><img src="assets/preview.png" width="800"/></div>
 
 ## Título 
 
@@ -8,12 +8,13 @@ Encriptador - Desencriptador de Texto.
 
 Encriptador y desencriptador de texto creado con JavaScript, HTML y CSS para el challenge del Proyecto ONE de **Oracle+Alura LATAM**.
 
-El funcionamiento de la página consiste escribir un mensaje y que la página lo encripte y desencripte y presentarlo en su forma encriptada o desencriptada, el objetivo de este desafio es poner a prueba los conocimientos adquiridos durante el curso "Principiante en programación"
+El funcionamiento de la página consiste escribir un mensaje en el área de texto, que la página lo encripte y presentarlo en su forma encriptada y luego ese mismo mensaje copiarlo y pegarlo para poder desencriptarlo. 
+El objetivo de este desafio es poner a prueba los conocimientos adquiridos durante el curso "Principiante en programación"
 
 
 ## Código de Encriptación
 
-Las llaves de encriptacion solicitadas son las siguientes:
+Los códigos de encriptacion solicitados son:
 
 - La letra "**a**" es convertida a "**ai**".
 - La letra "**e**" es convertida a "**enter**".
@@ -23,17 +24,17 @@ Las llaves de encriptacion solicitadas son las siguientes:
 
 ---
 
-## Requerimientos de fuincionamiento
+## Requerimientos de funcionamiento
 
 - Debe funcionar solo con letras minúsculas.
 - No deben ser letras acentuadas ni caracteres especiales.
 - Debe ser posible encriptar y desencriptar la frase escrita.
-- El usuario deberá igresar el texto en el área de encriptación dar click al botón encriptar y se muestra el mensaje ya encriptado y viceversa
-- El resultado debe ser mostrado en la pantalla.
+- El usuario deberá igresar el texto en el área de encriptación dar click al botón encriptar y se muestra el mensaje ya encriptado y viceversa.
+
 
 ### Extras:
 
-- Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
+- Agregamos un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
 
 
 ### Autor:
