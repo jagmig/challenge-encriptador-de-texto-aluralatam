@@ -1,4 +1,4 @@
-<div align="center"><img src="assets/favicon.svg" width="200"/></div>
+<div align="center"><img src="assets/preview.png" width="200"/></div>
 
 ## Título 
 
