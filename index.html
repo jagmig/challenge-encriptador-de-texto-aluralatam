@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador-Desencriptador Oracle Alura Latam</title>
+    <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    
+
+</head>
+<body>   
+   <header>
+        <div class="contenedor_principal">
+            <div class="imagen_header">
+                <a href="https://www.aluracursos.com/"> <img src="./assets/Logo.png" alt="Logo Alura" ></a>
+            </div>
+        </div>
+   </header>
+
+    <main>
+        <div class="contenedor_principal">
+            <div class="contenedor_encriptador">
+                <form class="encriptador">
+                    <div class="texto_entrada">
+                        <textarea name="texto_area" id="texto1" placeholder="Ingrese el texto aquí" required></textarea>
+                        <div class="informacion_texto">
+                            <div class="informacion">
+                                <img src="./assets/exclamacion.png" alt="signo_exlamacion">
+                                <p id="msj_exclamacion">Escribe solo letras minúsculas y sin acentos</p>
+                            </div>                            
+                            <div class="botones_texto">
+                                <input id="encrip" type="button" value="Encriptar">
+                                <input id="desencrip" type="button" value="Desencriptar">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="texto_salida">
+                    <div class="contenedor_salida">
+                        <div class="contenedor" id="default">
+                                <div class="texto_imagen">
+                                    <img src="./assets/Search.png" alt="persona_buscando">
+                                </div>                        
+                          <p>Ningún fue mensaje encontrado</p>
+                          <p>Ingresa el texto que deseas encriptar o desencriptar.</p>
+                        </div>                    
+                        <div class="contenedor invisible" id="resultado" >
+                            <textarea name="texto_area" id="texto_salida" disabled></textarea>
+                            <button id="copiar">Copiar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+    
+    <footer class="footer">
+        <p>© 2024 All rights Reserved Desarrollado por JAGMI | Oracle Alura Latam</p>
+        <a href="https://www.linkedin.com/in/jorge-gomez-m/" target="_blank"><img src="./assets/linkedin.png" class="pgn" alt="icono Linkedin"></a>
+        <a href="https://github.com/jagmig" target="_blank"><img src="./assets/signo-de-github.png" class="pgn" alt="icono github"></a>
+        
+    </footer>      
+</body>
+
+
+
+</html>
